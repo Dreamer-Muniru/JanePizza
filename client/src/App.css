@@ -25,3 +25,16 @@ select{
 .pizza_name{
     font-size: 18px;
 }
+
+.fa-plus{
+    color: green;
+    margin: 5px;
+}
+.fa-minus{
+    color: red;
+    margin: 5px;
+}
+
+.fa-trash{
+    color: red;
+}

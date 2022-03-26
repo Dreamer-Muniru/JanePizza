@@ -1,13 +1,15 @@
 import React from "react";
 import '../App.css';
+import {useSelector, useDispatch} from 'react-redux';
 
 
 function Navbar() {
+  const cartstate = useSelector(state=>state.cartReducer)
   return (
     <div>
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             JANE PIZZA
           </a>
           <button
@@ -29,8 +31,8 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Cart
+                <a className="nav-link" href="/cartScreen">
+                  Cart {cartstate.cartItems.length}
                 </a>
               </li>
              
