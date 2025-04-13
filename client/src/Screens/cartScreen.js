@@ -25,7 +25,7 @@ function CartScreen() {
                         <hr/>
                     </div>
 
-                    <div style={{width: '100', margin:'11px'}}>
+                    <div style={{width: '100', margin:'10px'}}>
                         <img src={item.image} alt="Product Image" style={{height: '80px', width:'80px'}} />
                     </div>
                     <div style={{width: '100', margin:'10px'}}>
