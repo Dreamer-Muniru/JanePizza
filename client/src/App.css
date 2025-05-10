@@ -13,13 +13,13 @@
 }
 
 .btn{
-    background-color: rgb(193, 2, 2) !important;
+    background-color: rgb(122, 0, 0) !important;
     color: white !important;
 }
 
 select{
     box-shadow: none !important;
-    border-color: black !important;
+    border-color: rgb(5, 4, 4) !important;
 }
 
 .pizza_name{

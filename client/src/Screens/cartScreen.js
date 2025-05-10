@@ -37,7 +37,7 @@ function CartScreen() {
             </div>
 
             <div className='col-md-6'>
-                <h2 style={{fontSize: '45px'}}> giSubTotal = GHS {subTotal} </h2>
+                <h2 style={{fontSize: '46px'}}> giSubTotal = GHS {subTotal} </h2>
                 <button className='btn text-right'>Pay Now</button>
             </div>
     </div>
