@@ -14,7 +14,7 @@ function HomeScreen() {
         <div>
             <div className='row justify-content-center'>
 
-                {loading ? (<h1>Loading</h1>) : error ? (<h1>Something went wrong!</h1>) : (
+                {loading ? (<h1>Loading</h1>) : error ? (<h1>Hmmm...Something went wrong!</h1>) : (
                     pizzas.map(pizza =>{
                         return <div className='col-md-3 m-3'  key={pizza._id}>
                             <div>
