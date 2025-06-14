@@ -12,6 +12,6 @@ const pizzaSchema = mongoose.Schema({
 })
 
 const pizzaModel = mongoose.model('pizzas', pizzaSchema)
-
+// exporting
 module.exports = pizzaModel
 
